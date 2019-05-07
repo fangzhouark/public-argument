@@ -1772,7 +1772,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #90ff47;
+  background: #8b18cc;
 }
 .feed-link,
 .chat {
@@ -2635,7 +2635,7 @@ a:hover {
 }
 .sidebar {
   box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
-  background-color: rgba(0,0,0,0.3);
+  background-color: #2e3131;
 }
 .sidebar-inner {
   margin-top: 30px;
@@ -2729,4 +2729,20 @@ h2.about-title {
 .btn-bar {
   background-color: #fff;
   top: 17px;
+}
+.sidebar-nav li {
+  font-size: 15px;
+  font-weight: bold;
+  color: #07b39b;
+}
+.sidebar-nav li:hover {
+  color: #a166ab;
+}
+.sidebar-nav .sidebar-nav-active {
+  color: #07b39b;
+  border-bottom-color: #a166ab;
+  border-bottom-width: 1.5px;
+}
+.sidebar-nav .sidebar-nav-active:hover {
+  color: #07b39b;
 }
